@@ -21,8 +21,8 @@ def main():
         key = cv.waitKey(1)
 
         cv.imshow("frame", frame)
-       # cv.imshow("mask", mask)
-        cv.imshow("res", res)
+        # cv.imshow("mask", mask)
+        cv.imshow("resault", res)
 
         if key == 32:
             cv.destroyAllWindows()
